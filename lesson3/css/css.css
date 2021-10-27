@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+}
+table{
+    border-collapse:collapse ;
+    border:2px solid green;
+    width: 90%;
+    height: 80vh;
+    background: rgb(67,180,181);
+background: linear-gradient(0deg, rgba(67,180,181,1) 40%, rgba(217,170,67,1) 82%);
+}
+th{
+    border:2px solid green;
+}
+th:hover{
+    font-size: 10spx;
+    background-color: aqua;
+    border:3px solid rgb(255, 255, 255)
+}
+img{
+    width:50px;
+}

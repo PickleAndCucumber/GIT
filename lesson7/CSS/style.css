@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+li{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.left{
+    background-color: tomato;
+    width: 25%;
+    height: 600px;
+}
+.bigconteiner{
+    background-color: turquoise;
+    width: 75%;
+    height: 600px;
+}
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+div{
+    float: left;
+    width: 100%;
+}
+.center{
+    list-style-type: none;
+    text-align: center;
+    font-size: 50px
+}
+img{
+    border: 5px;
+
+}
+.smallblock{
+    background-color: black;
+    height: 100px;
+    display: inline-block;
+
+}
+.smallborder{
+    height: 100px;
+    width: 5%;
+    
+}

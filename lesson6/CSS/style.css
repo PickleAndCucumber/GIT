@@ -1,0 +1,86 @@
+*{
+    padding:0;
+    margin:0;
+}
+div{
+    width: 75%;
+    height: 300px;
+    float: left;
+}
+.border{
+    height: 25px;
+}
+.needcolor{
+    height: 100;
+    display: inline-block;
+}
+.divred1{
+    background-color: red;
+    height: 100px;
+}
+.divblue1{
+    background-color: blue;
+    height: 100px;
+}
+.divgreen1{
+    background-color: green;
+    height: 100px;
+}
+.divred2{
+    background-color: red;
+    height: 130px;
+    width: 30%;
+}
+.divgreen2{
+    background-color: green;
+    height: 130px;
+    width: 30%;
+}
+.divblue2{
+    background-color: blue;
+    height: 130px;
+    width: 30%;
+}
+.divyellow1{
+    background-color: yellow;
+    height: 100px;
+}
+.divсерый{
+    background-color: grey;
+    width: 46.5%;
+    height: 100px;
+}
+.divblack{
+    background-color: black;
+    height: 100px;
+    width: 46.5%;
+}
+.divred3{
+    background-color: red;
+    height: 100px;
+    width: 25%;
+}
+.divgreen3{
+    background-color: green;
+    height: 100px;
+    width: 25%;
+}
+.divblue3{
+    background-color: blue;
+    height: 100px;
+    width: 25%;
+}
+.one{
+    background-color: cadetblue;
+    width: 75%;
+}
+.two{
+
+    width: 80%;
+}
+.smallborders{
+    width: 5%;
+}
+.topborders{
+    height: 69px;
+}
