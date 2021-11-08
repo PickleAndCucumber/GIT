@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.all{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.circle{
+    height: 200px;
+    width: 200px;
+    background-color:rgb(15, 153, 130) ;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -180px;
+    left: -75px;
+}
+.square{
+    height: 250px;
+    width: 180px;
+    background-color: rgb(238, 221, 202);
+    position: absolute;
+    top: -80px;
+    right: -70px;
+}
+.coalesced{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.left{
+    height: 500px;
+    width: 350px;
+    background-color: rgb(238, 221, 202);
+}
+.right{
+    height: 500px;
+    width: 350px;
+    background-color:rgb(15, 153, 130);
+}
+.p{
+    font-size: 25px;
+    text-align: center;
+}
+.If{
+    text-align: center;
+    color: white;
+}
+.little{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: inline-block;
+}
+/*.little2{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.little3{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+}*/
+.Contact{
+    text-align: center;
+    font-size: 30px;
+    padding: 15px 0;
+}
+.Hello{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.tap{
+    height: 30px;
+    width: 50px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+}
+.forma{
+    text-align: center;
+    padding: 50px 0;
+}
+.li{
+    list-style-type: none;
+    text-decoration-style: dashed;
+}
