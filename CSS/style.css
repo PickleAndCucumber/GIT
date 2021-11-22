@@ -24,6 +24,7 @@ a{
 .block{
     display: flex;
     justify-content:space-evenly;
+    flex-wrap: wrap;
 }
 .block1{
     border-radius: 20px;

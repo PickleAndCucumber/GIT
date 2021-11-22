@@ -70,3 +70,7 @@ h2{
 @media (max-width :716px) {
     .bottom{background-color: blue;}
 }
+h1{
+	margin: 10px 20px;
+}
+.foo
