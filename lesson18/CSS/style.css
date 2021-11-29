@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card-img-top{
+    height: 200px;
+}
+.badge{
+    width: 50px;
+}
+.ki{
+    float: right;
+}
