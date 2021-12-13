@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr ;
+    grid-auto-rows: minmax(77px, auto) ;
+}
+
+.block-nav{
+   
+    grid-column: 2/3;
+    grid-row: 1/2;
+    line-height: 77px;
+    border-bottom:solid 2px  #828282 ;
+
+}
+li{
+    list-style: none;
+    height: 23px;
+  width: 82px;
+   left: 457px;
+top: 23px;
+border-radius: nullpx;
+color: #828282;
+
+
+}
+.home{
+    color: black;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.block-info{
+     grid-column: 2/3;
+     grid-row: 2/3;
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-end;
+}
+.info1{
+    width: 124px;
+    height: 117px;
+  
+}
+h1{
+    height: 117px;
+width: 124px;
+left: 251px;
+top: 118px;
+border-radius: nullpx;
+margin-top: 15px;
+
+}
+h2{
+    font-family: Gilroy-Medium;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+.info2{
+    width: 150px;
+    height: 64px;
+
+}
+.info3{
+    width: 124px;
+    height: 44px;
+   
+}
+
+.block-img{
+    background-color: rgb(12, 85, 114);
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin-bottom: 100px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.block-about{
+
+    grid-column: 1/4;
+    grid-row: 4/5;
+    background: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.about{
+    width: 485px;
+    height: 217px;
+    margin: 50px;
+
+}
+h6{
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.hi{
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    
+}
+/*p{
+    font-family: Gilroy-Medium;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+
+}*/
+.block-skills{
+
+    grid-column: 2/3;
+    grid-row: 5/6;
+    text-align: center;
+    height: 429px;
+    margin: 100px;
+}
+.tr{
+   
+    display: flex;
+    justify-content: space-between;
+
+}
+.sk{
+    width: 166px;
+    height: 205px;
+
+    margin-top: 82px;
+}
+img{
+    width: 88px;
+    height: 89px;
+}
+.block-contacts{
+    background-color: azure;
+    grid-column: 2/3;
+    grid-row: 6/7;
+}
+.footer{
+    background-color: bisque;
+    grid-column: 2/3;
+    grid-row: 7/8;
+}
+.sk ul{
+    font-family: Gilroy-Bold;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: center;
+
+}
