@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -134,10 +139,13 @@ li{
 .nav ul{
     display: flex;
     justify-content: space-around;
+    position: relative;
 }
 /*hover hover hover hover*/
+/*
 .nav ul .one{
     display: inline-block;
+position: absolute;
 }
 .nav ul .one ul{
     display: none;
@@ -156,8 +164,20 @@ li{
     position: absolute;
     left: 115.55px;
     top:0;
+}*/
+
+
+.nav ul li>ul{
+    display: none;
+}
+.nav ul li:hover>ul{
+    display: block;
+    position: absolute;
 }
 
+/*p к классу six*/
+.nav ul .six 
+/*
 .nav ul .two{
     display: inline-block;
 }
@@ -259,4 +279,99 @@ a{
 .nav ul li i{
     color: #C4C4C4;
 
+}
+
+.text{
+    width: 624px;
+    height: 115px;
+}
+/*h2 h2 h2 h2 h2 and p p p p p */
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+p{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    color: #777777;
+}
+/*trevel trevel trevel trevel trevel*/
+.trevel{
+
+}
+/*button*/
+.buttonone{
+    width: 270px;
+    height: 50px;
+    background: #bdbdbd;
+    border-radius: 2px;
+}
+.tyr .buttonone a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.buttontwo{
+    width: 220px;
+    height: 50px;
+    border: 1px solid #969696;
+    border-radius: 2px;
+}
+.tyr .buttontwo a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 16px;
+    color: #969696;
+}
+.tyr{
+    display: flex;
+    justify-content: space-around;
+}
+/*fon fon fon fon fon*/
+.fon{
+    height: 490px;
+    background-size: cover;
+    background-image: url(../images/104276fb11cd5d5a5a2b9ed233bde285\ 1.svg);
+}
+.blackfon{
+    height: 490px;
+    background-size: cover;
+    background-image: url(../images/Rectangle\ 83.svg);
+}
+/* text + fon = textafon */
+.fon .one{
+    width: 249px;
+    height: 45px;
+    border: 1px solid #FFFFFF;
+}
+.fon .one .euro{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.fon .two .mastila{
+    width: 725px;
+    height: 102px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 45px;
+    line-height: 50px;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+.fon .blackfon .three{
+    width: 270px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 2px;
+}
+.fon .blackfon .three .details{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
 }
