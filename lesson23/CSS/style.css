@@ -3,11 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
 *{
     margin: 0;
     padding: 0;
-}ы
+}
 .container{
     display: grid;
     grid-template-columns: 1fr;
@@ -19,7 +21,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border-bottom: 1px solid #D0D0D0;;
+    border-bottom: 1px solid #D0D0D0;
 }
 .image{
     width: 210px;
@@ -35,8 +37,9 @@ img{
 .uaru{
     width: 46px;
     height: 40px;
-    border-left:5px solid #000000;
-    text-align: center
+    border-left:1px solid #E2E2E2;
+    text-align: center;
+    padding: 5px;
 }
 .RU{
     background: #4AD295;
@@ -59,9 +62,10 @@ h3{
 .usd{
     width: 75px;
     height: 40px;
-    border-left:5px solid #000000;
+    border-left:1px solid #E2E2E2;
     display: flex;
     align-items: center;
+    padding:5px;
 }
 .info{
     display: flex;
@@ -69,7 +73,8 @@ h3{
     align-items: center;
     width: 80px;
     height: 40px;
-    border-left:5px solid #000000;
+    border-left:1px solid #E2E2E2;
+    padding:5px;
 }
 li{
     list-style-type: none;
@@ -80,11 +85,12 @@ li{
     font-size: 16px;
 }
 .number{
-    border-left:5px solid #000000;
+    border-left:1px solid #E2E2E2;
     display: flex;
     justify-content: space-between;
     width:150px ;
     height: 40px;
+    padding:5px;
 }
 .phone img{
     width: 39px;
@@ -97,14 +103,14 @@ li{
     border-radius: 2px;
     display: flex;
     justify-content: space-between;
-    border-left:5px solid #000000;    
+    border-left:1px solid #E2E2E2;    
 }
 .maistra{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.icon{
+.Maistra .maistra .icon{
     width: 40px;
     height: 40px;
     background: #DD4053;
@@ -136,36 +142,14 @@ li{
     align-items: center;
 }
 /*nav and display*/
+.nav{
+    padding-top: 25px;
+}
 .nav ul{
     display: flex;
     justify-content: space-around;
     position: relative;
 }
-/*hover hover hover hover*/
-/*
-.nav ul .one{
-    display: inline-block;
-position: absolute;
-}
-.nav ul .one ul{
-    display: none;
-}
-.nav ul .one:hover>ul{
-    display: block;
-    background-color: chocolate;
-    width: 100px;
-    position: absolute;
-    left: 200px;
-}
-.nav ul .one ul li:hover>ul{
-    display: block;
-    background-color: rgb(170, 94, 39);
-    width: 115.55px;
-    position: absolute;
-    left: 115.55px;
-    top:0;
-}*/
-
 
 .nav ul li>ul{
     display: none;
@@ -176,114 +160,35 @@ position: absolute;
 }
 
 /*p к классу six*/
-.nav ul .six 
-/*
-.nav ul .two{
-    display: inline-block;
-}
-.nav ul .two ul{
-    display: none;
-}
-.nav ul .two:hover>ul{
-    display: block;
-    background-color: chocolate;
-    width: 100px;
-    position: absolute;
-    left: 400px;
-}
-.nav ul .two ul li:hover>ul{
-    display: block;
-    background-color: rgb(170, 94, 39);
-    width: 115.55px;
-    position: absolute;
-    left: 115.55px;
-    top:0;
-}
 
-.nav ul .three{
-    display: inline-block;
-}
-.nav ul .three ul{
-    display: none;
-}
-.nav ul .three:hover>ul{
-    display: block;
-    background-color: chocolate;
-    width: 100px;
-    position: absolute;
-    left: 595px;
-}
-.nav ul .three ul li:hover>ul{
-    display: block;
-    background-color: rgb(170, 94, 39);
-    width: 115.55px;
-    position: absolute;
-    left: 115.55px;
-    top:0;
-}
-
-.nav ul .five{
-    display: inline-block;
-}
-.nav ul .five ul{
-    display: none;
-}
-.nav ul .five:hover>ul{
-    display: block;
-    background-color: chocolate;
-    width: 100px;
-    position: absolute;
-    left: 1030px;
-}
-.nav ul .five ul li:hover>ul{
-    display: block;
-    background-color: rgb(170, 94, 39);
-    width: 115.55px;
-    position: absolute;
-    left: 115.55px;
-    top:0;
-}
-
-.nav ul .six{
-    display: inline-block;
-}
-.nav ul .six ul{
-    display: none;
-}
-
-.nav ul .six:hover>ul{
-    display: block;
-    background-color: chocolate;
-    width: 100px;
-    position: absolute;
-    left: 1235px;
-}
-.nav ul .six ul li:hover>ul{
-    display: block;
-    background-color: rgb(170, 94, 39);
-    width: 115.55px;
-    position: absolute;
-    left: 115.55px;
-    top:0;
-}
-
-a{
-    text-decoration: none;
-}
-.nav ul .one a{
-    color: #171717;
-}
-.nav ul li a{
+/*color for nav*/
+.nav .two{
     color: #616161;
 }
-.nav ul li i{
-    color: #C4C4C4;
-
+.nav .three{
+    color: #616161;
 }
-
-.text{
-    width: 624px;
-    height: 115px;
+.nav .four a{
+    color: #616161;
+    text-decoration: none;
+}
+.nav .five{
+    color: #616161;
+}
+.nav .six{
+    color: #616161;
+}
+.nav .seven a{
+    color: #616161;
+    text-decoration: none;
+}
+.nav .eight a{
+    color: #616161;
+    text-decoration: none;
+}
+.nav .nine a{
+    color: #616161;
+    text-decoration: none;
 }
 /*h2 h2 h2 h2 h2 and p p p p p */
 h2{
@@ -299,34 +204,7 @@ p{
 .trevel{
 
 }
-/*button*/
-.buttonone{
-    width: 270px;
-    height: 50px;
-    background: #bdbdbd;
-    border-radius: 2px;
-}
-.tyr .buttonone a{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    color: #FFFFFF;
-}
-.buttontwo{
-    width: 220px;
-    height: 50px;
-    border: 1px solid #969696;
-    border-radius: 2px;
-}
-.tyr .buttontwo a{
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-size: 16px;
-    color: #969696;
-}
-.tyr{
-    display: flex;
-    justify-content: space-around;
-}
+
 /*fon fon fon fon fon*/
 .fon{
     height: 490px;
@@ -334,9 +212,10 @@ p{
     background-image: url(../images/104276fb11cd5d5a5a2b9ed233bde285\ 1.svg);
 }
 .blackfon{
-    height: 490px;
-    background-size: cover;
-    background-image: url(../images/Rectangle\ 83.svg);
+    height: 260px;
+    width: 730px;
+    margin-left: 105px;
+    margin-top: 104px;
 }
 /* text + fon = textafon */
 .fon .one{
@@ -349,6 +228,8 @@ p{
     font-style: normal;
     font-size: 24px;
     color: #FFFFFF;
+    margin-top: 10px;
+    margin-left: 7px;
 }
 .fon .two .mastila{
     width: 725px;
@@ -356,22 +237,120 @@ p{
     font-family: 'Montserrat';
     font-style: normal;
     font-size: 45px;
-    line-height: 50px;
+    line-height: 45px;
     color: #FFFFFF;
     font-weight: 500;
+    margin-left: -25px;
+    margin-top: 20px;
 }
 .fon .blackfon .three{
     width: 270px;
     height: 60px;
     background: rgba(255, 255, 255, 0.25);
     border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .fon .blackfon .three .details{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
-    line-height: 20px;
-    text-align: center;
+    line-height:20px;
     color: #FFFFFF;
+  
+ 
+    text-decoration: none;
+}
+/*TREVEL TREVEL TREVEL TREVEL TREVEL*/
+.trevel{
+    display: flex;
+    justify-content: space-around;
+}
+.terevel .text{
+    
+}
+.trevel .text h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 30px;
+    width: 540px;
+    margin-top: 30px;
+}
+.trevel .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #777777;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.trevel .help{
+    display: flex;
+    justify-content: space-around;
+}
+.trevel .help .text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    width: 370px;
+    line-height: 50px;
+    color: #3D3D3D;
+}
+/*button*/
+.buttonone{
+    width: 270px;
+    height: 50px;
+    background: #bdbdbd;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tyr .buttonone a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.buttontwo{
+    width: 220px;
+    height: 50px;
+    border: 1px solid #969696;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tyr .buttontwo a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 16px;
+    color: #969696;
+}
+.tyr{
+    display: flex;
+    justify-content: space-around;
+}
+.trevel .text .tyr a{
+    text-decoration: none;
+}
+/*ICON ICON ICON ICON ICON*/
+.trevel .help .icon .one{
+    border-radius: 25px;
+    background-color: aquamarine;
+    border:1,2px solid #969696;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+}
+.trevel .help .icon .one .one{
+    height: 16px;
+    width: 20px;
+}
+.trevel .help .icon .one .two{
+    height: 15px;
+    width: 30px;
+}
+.trevel .help .icon .one{
 }
