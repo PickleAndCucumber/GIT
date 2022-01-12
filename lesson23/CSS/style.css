@@ -67,7 +67,7 @@ h3{
     align-items: center;
     padding:5px;
 }
-.info{
+.head .info{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -334,23 +334,124 @@ p{
     text-decoration: none;
 }
 /*ICON ICON ICON ICON ICON*/
+.trevel .help {
+    height: 200px;
+    width: 370px;
+    margin-top: 37px;
+}
+.trevel .help .icon{
+    height: 200px;
+    width: 50px;
+    margin-right: 15px;
+}
 .trevel .help .icon .one{
     border-radius: 25px;
-    background-color: aquamarine;
-    border:1,2px solid #969696;
+    border:1.2px dashed #969696;
     height: 45px;
     width: 45px;
     display: flex;
     justify-content: center;
-    align-content: space-around;
+    align-items: center;
 }
-.trevel .help .icon .one .one{
-    height: 16px;
+.trevel .help .icon .one img{
+    height: 20px;
     width: 20px;
 }
-.trevel .help .icon .one .two{
-    height: 15px;
-    width: 30px;
+.trevel .help .icon .two{
+    border-radius: 25px;
+    border:1.2px dashed #969696;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
-.trevel .help .icon .one{
+.trevel .help .icon .two img{
+    height: 20px;
+    width: 20px;
+}
+.trevel .help .icon .three{
+    border-radius: 25px;
+    border:1.2px dashed #969696;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.trevel .help .icon .three img{
+    height: 20px;
+    width: 20px;
+}
+/*TEXT TEXT TEXT TEXT TEXT TEXT*/
+.trevel .help .text .text .two{
+    margin-top: 17px;
+}
+.trevel .help .text .text .three{
+    margin-top: 17px;
+}
+/*FOOTER FOOTER FOOTER FOOTER FOOTER */
+.fontwo{
+    height: 370px;
+    background-size: cover;
+    background-image: url(../images/SloveniaHeader\ 3.svg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*INFO INFO INFO INFO INFO INFO INFO */
+.fontwo .info{
+    width: 1236px;
+}
+.fontwo .info .one {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom:1px solid #1D1D1D33;
+    padding-bottom: 15px;
+}
+.fontwo .info .otherone ul li a{
+    text-decoration: none;
+    color:#3E3E3E;
+    line-height: 20px;
+    font-size: 15px;
+}
+.fontwo .info .othertwo ul li a{
+    text-decoration: none;
+    color:#3E3E3E;
+    line-height: 20px;
+    font-size: 15px;
+}
+.fontwo .info .worktime ul li h4{
+    color:#3E3E3E;
+    line-height: 15.63px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 12px;
+}
+.fontwo .info .worktime ul li h3{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    color: #3E3E3E;
+    font-size: 15px;
+}
+.fontwo .info .number{
+    width: 200px;
+    height: 86px;
+}
+.fontwo .info .number .three{
+    margin-top: 20px;
+}
+/*INFO INFO INFO INFO INFO INFO */
+.fontwo .info. .two .info .icon{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: ;
+}
+.fontwo .info. .two .info h3{
+
 }
