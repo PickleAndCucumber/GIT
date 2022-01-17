@@ -110,7 +110,7 @@ li{
     justify-content: center;
     align-items: center;
 }
-.Maistra .maistra .icon{
+.Maistra .icon{
     width: 40px;
     height: 40px;
     background: #DD4053;
@@ -446,12 +446,15 @@ p{
     margin-top: 20px;
 }
 /*INFO INFO INFO INFO INFO INFO */
-.fontwo .info. .two .info .icon{
+.fontwo .info .two {
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    align-content: ;
+    justify-content: space-between;
+    padding-top: 20px;
 }
-.fontwo .info. .two .info h3{
-
+.fontwo .info .two .icon{
+    width: 100px;
+}
+.fontwo .info .two .icon i{
+    margin-right: 10px;
+    color: black;
 }

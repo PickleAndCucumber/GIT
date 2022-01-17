@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(70px,auto) ;
+}
+.head{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #D0D0D0;
+}
+.image{
+    width: 210px;
+    height: 72px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+img{
+    width: 131px;
+    height: 72px;
+}
+.uaru{
+    width: 46px;
+    height: 40px;
+    border-left:1px solid #E2E2E2;
+    text-align: center;
+    padding: 5px;
+}
+.RU{
+    background: #4AD295;
+    border-radius: 2px;
+    color: #FFFFFF;
+    width: 35px;
+    height: 20px;
+}
+.ua{
+    width: 35px;
+    height: 20px;
+}
+    /* identical to box height */
+h3{
+    font-family: 'Questrial', sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+    padding: 0px 20px;
+}
+.usd{
+    width: 75px;
+    height: 40px;
+    border-left:1px solid #E2E2E2;
+    display: flex;
+    align-items: center;
+    padding:5px;
+}
+.head .info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80px;
+    height: 40px;
+    border-left:1px solid #E2E2E2;
+    padding:5px;
+}
+li{
+    list-style-type: none;
+    font-family: 'Questrial', sans-serif;
+}
+.number ul li{
+    font-family: 'Questrial', sans-serif;
+    font-size: 16px;
+}
+.number{
+    border-left:1px solid #E2E2E2;
+    display: flex;
+    justify-content: space-between;
+    width:150px ;
+    height: 40px;
+    padding:5px;
+}
+.phone img{
+    width: 39px;
+    height: 39px;
+}
+.Maistra{
+    width: 240px;
+    height: 40px;
+    background: #EFF3F6;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    border-left:1px solid #E2E2E2;    
+}
+.maistra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Maistra  .icon{
+    width: 40px;
+    height: 40px;
+    background: #DD4053;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ТУРЫ{
+    width: 240px;
+    height: 40px;
+    background: #EFF3F6;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+.туры{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.acon{
+    width: 40px;
+    height: 40px;
+    background: #4AD295;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*nav and display*/
+.nav{
+    padding-top: 25px;
+    border-bottom: 1px solid #D0D0D0;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.nav ul li>ul{
+    display: none;
+}
+.nav ul li:hover>ul{
+    display: block;
+    position: absolute;
+}
+
+/*p к классу six*/
+
+/*color for nav*/
+.nav .two{
+    color: #616161;
+}
+.nav .three{
+    color: #616161;
+}
+.nav .four a{
+    color: #616161;
+    text-decoration: none;
+}
+.nav .five{
+    color: #616161;
+}
+.nav .six{
+    color: #616161;
+}
+.nav .seven a{
+    color: #616161;
+    text-decoration: none;
+}
+.nav .eight a{
+    color: #616161;
+    text-decoration: none;
+}
+.nav .nine a{
+    color: #171717;
+    text-decoration: none;
+}
+.nav .nine .nine{
+    padding-bottom: 25px;
+    border-bottom: solid #DD4053;
+}
+/*WAY WAY WAY WAY WAY WAY WAY WAY WAY*/
+.way{
+    width: 180px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-left: 115px;
+}
+.way .one{
+    text-decoration: none;
+    color: #969696;
+}
+.way .two{
+    text-decoration: none;
+    color: #171717;
+}
+.way a{
+    font-family: 'Montserrat';
+}
+/*DATA DATA DATA DATA DATA DATA DATA DATA*/
+.data {
+    display: flex;
+    justify-content: space-around;
+}
+.data .contacts ul li .one{
+    font-family: 'Montserrat';
+    font-size: 31px;
+    width: 350px;
+}
+.data .contacts ul li .two{
+    font-family: 'Montserrat';
+    font-size: 12px;
+    color:  #848484;
+    margin-top: 30px;
+}
+.data .contacts ul li .three{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 3px;
+    color: #323232;
+    margin-top: 15px;
+}
+.data .contacts ul li .four{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 2px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #848484;
+    margin-top: 40px;
+}
+.data .contacts ul li .five{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #323232;
+    margin-top: 15px;
+}
+.data .contacts ul li .six{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #323232;
+}
+.data .contacts ul li .seven{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 2px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #848484;
+    margin-top: 40px;
+    margin-left: -20px;
+}
+.data .contacts ul li .eight{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 2px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #323232;
+    margin-top: 15px;
+}
+.data .contacts {
+    margin-top: 100px;
+}
+/*QUESTIONS QUESTIONS QUESTIONS QUESTIONS*/
+.data .questions{
+    width: 500px;
+    height: 460px;
+    background: #F8F8F8;
+    margin-top: 45px;
+}
+.data .questions .forma{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+}
+.data .questions h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 5px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #323232;
+    margin-top: 40px;
+}
+.data .questions .forma .one{
+    width: 370px;
+    height: 50px;
+    margin-top: 20px;
+    background: #FFFFFF;
+    border: 1px solid #616161;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.data .questions .forma .two{
+    width: 370px;
+    height: 50px;
+    margin-top: 20px;
+    background: #FFFFFF;
+    border: 1px solid #616161;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-top: 15px;
+}
