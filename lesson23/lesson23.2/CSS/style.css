@@ -317,6 +317,12 @@ li{
     border: 1px solid #616161;
     box-sizing: border-box;
     border-radius: 2px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2F2F2F;
 }
 .data .questions .forma .two{
     width: 370px;
@@ -327,4 +333,302 @@ li{
     box-sizing: border-box;
     border-radius: 2px;
     margin-top: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #969696;
 }
+.data .questions .forma .three{
+    width: 370px;
+    height: 50px;
+    margin-top: 20px;
+    background: #FFFFFF;
+    border: 1px solid #616161;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-top: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #969696;
+}
+.data .questions .forma .four{
+    width: 370px;
+    height: 50px;
+    margin-top: 20px;
+    background: #FFFFFF;
+    border: 1px solid #616161;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-top: 15px;
+    font-family:'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #969696;
+}
+.data .questions .forma .button{
+    width: 370px;
+    height: 60px;
+    background: #DD4053;
+    border-radius: 2px;
+    margin-top: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+
+}    
+/*FON FON FON FON FON FON FON FON FON FON FON FON */
+.fon{
+    margin-top: 60px;
+    height: 400px;
+    background-size: cover;
+    background-image: url(../images/ee154eb603\ 1.svg);
+}
+/*TEAM TEAM TEAM TEAM TEAM TEAM*/
+.team{
+    margin-left: 115px;
+    width: 1200px;
+    margin-right: 115px;
+}
+.team .header{
+    border-bottom:1px solid #D0D0D0;
+    margin-top: 90px;
+    padding-bottom: 30px;
+}
+.team .header ul{
+    display: flex;
+    justify-content: space-around;
+}
+.team .header ul .one{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #232323;
+}
+.team .header ul .two{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+    color: #000000;
+    margin-left: 206px;
+    margin-top: 5px;
+}
+.team .header ul .three{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+    color: #000000;
+    opacity: 0.35;
+    margin-top: 5px;
+}
+.team .header ul .four{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+    color: #000000;
+    opacity: 0.35;
+    margin-top: 5px;
+}
+.team .header ul .five{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+    color: #000000;
+    opacity: 0.35;
+    margin-top: 5px;
+}
+.team .team{
+    margin-left: -0px;
+    display: flex;
+    justify-content: space-around;
+}
+.team .team .one .img img{
+    height: 150px;
+    width: 150px;
+}
+.team .team .one{
+    margin-top: 40px;
+    margin-bottom: 69px;
+    display: flex;
+    justify-content: space-around;
+    width: 550px;
+    padding-bottom: 69px;
+    border-bottom: 1px solid #D0D0D0;
+}
+.team .team .one .text{
+    margin-left:50px ;
+}
+.team .team .one .text h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 2px;
+    font-size: 20px;
+    color: #323232;
+}
+.team .team .one .text h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #323232;
+    margin-left: -20px;
+    margin-top: 10px;
+    margin-bottom: 54px;
+}
+.team .team .one .text a{
+    font-family:'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #323232;
+}
+.team .team .two .img img{
+    height: 150px;
+    width: 150px;
+}
+.team .team .two{
+    margin-top: 40px;
+    margin-bottom: 69px;
+    display: flex;
+    justify-content: space-around;
+    width: 550px;
+    padding-bottom: 69px;
+    border-bottom: 1px solid #D0D0D0;
+}
+.team .team .two .text{
+    margin-left:50px ;
+}
+.team .team .two .text h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 2px;
+    font-size: 20px;
+    color: #323232;
+}
+.team .team .two .text h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #323232;
+    margin-left: -20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.team .team .two .text a{
+    font-family:'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #323232;
+}
+/*.team .team .two{
+    margin-top: 40px;
+    margin-bottom: 69px;
+    display: flex;
+    justify-content: space-around;
+    width: 550px;
+    padding-bottom: 69px;
+    border-bottom: 1px solid #D0D0D0;
+}
+.team .team .two .img img{
+    width: 150px;
+    height: 150px;
+}
+.team .team .two .text h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 2px;
+    font-size: 20px;
+    line-height: 26px;
+    color: #323232;
+
+}
+.team .team .two .text h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #323232;    
+    margin-top: 10px;
+    margin-bottom: 54px;
+}
+.team .team .two .text a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 2px;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #323232;    
+}
+.team .team .two .text{
+    margin-left:50px ;
+}*/
+/*.team .team .two{
+    display: flex;
+    justify-content: space-around;
+    width: 550px;
+    margin-left: 50px;
+    border-bottom: 1px solid #D0D0D0;
+    margin-top:40px ;
+}
+.team .team .two .img img{
+    width: 150px;
+    height: 150px;
+}
+.team .team .two .text h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #323232;
+
+}
+.team .team .two .text h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #323232;    
+    margin-top: 10px;
+    margin-bottom: 54px;
+}
+.team .team .two .text a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #323232;    
+}*/
