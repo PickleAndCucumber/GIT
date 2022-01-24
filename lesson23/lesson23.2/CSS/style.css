@@ -397,7 +397,6 @@ li{
 /*TEAM TEAM TEAM TEAM TEAM TEAM*/
 .team{
     margin-left: 115px;
-    width: 1200px;
     margin-right: 115px;
 }
 .team .header{
@@ -407,7 +406,7 @@ li{
 }
 .team .header ul{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .team .header ul .one{
     font-family: 'Montserrat';
@@ -425,7 +424,7 @@ li{
     line-height: 100%;
     color: #000000;
     margin-left: 206px;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 .team .header ul .three{
     font-family: 'Montserrat';
@@ -433,9 +432,8 @@ li{
     font-weight: normal;
     font-size: 16px;
     line-height: 100%;
-    color: #000000;
-    opacity: 0.35;
-    margin-top: 5px;
+    color: #969696;
+    margin-top: 15px;
 }
 .team .header ul .four{
     font-family: 'Montserrat';
@@ -443,9 +441,8 @@ li{
     font-weight: normal;
     font-size: 16px;
     line-height: 100%;
-    color: #000000;
-    opacity: 0.35;
-    margin-top: 5px;
+    color: #969696;
+    margin-top: 15px;
 }
 .team .header ul .five{
     font-family: 'Montserrat';
@@ -453,20 +450,20 @@ li{
     font-weight: normal;
     font-size: 16px;
     line-height: 100%;
-    color: #000000;
-    opacity: 0.35;
-    margin-top: 5px;
+    color: #969696;
+    margin-top: 15px;
+    margin-right: -15px;
 }
-.team .team{
-    margin-left: -0px;
+.team .teamo{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-.team .team .one .img img{
+.team .teamo .one .img img{
     height: 150px;
     width: 150px;
 }
-.team .team .one{
+.team .teamo .one{
     margin-top: 40px;
     margin-bottom: 69px;
     display: flex;
@@ -475,17 +472,17 @@ li{
     padding-bottom: 69px;
     border-bottom: 1px solid #D0D0D0;
 }
-.team .team .one .text{
+.team .teamo .one .text{
     margin-left:50px ;
 }
-.team .team .one .text h2{
+.team .teamo .one .text h2{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 2px;
     font-size: 20px;
     color: #323232;
 }
-.team .team .one .text h3{
+.team .teamo .one .text h3{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: normal;
@@ -494,9 +491,9 @@ li{
     color: #323232;
     margin-left: -20px;
     margin-top: 10px;
-    margin-bottom: 54px;
+    margin-bottom: 74px;
 }
-.team .team .one .text a{
+.team .teamo .one .text a{
     font-family:'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -505,30 +502,31 @@ li{
     text-decoration-line: underline;
     color: #323232;
 }
-.team .team .two .img img{
+.team .teamo .two .img img{
     height: 150px;
     width: 150px;
 }
-.team .team .two{
+.team .teamo .two{
     margin-top: 40px;
     margin-bottom: 69px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 550px;
     padding-bottom: 69px;
     border-bottom: 1px solid #D0D0D0;
 }
-.team .team .two .text{
+
+.team .teamo .two .text{
     margin-left:50px ;
 }
-.team .team .two .text h2{
+.team .teamo .two .text h2{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 2px;
     font-size: 20px;
     color: #323232;
 }
-.team .team .two .text h3{
+.team .teamo .two .text h3{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: normal;
@@ -539,7 +537,7 @@ li{
     margin-top: 10px;
     margin-bottom: 50px;
 }
-.team .team .two .text a{
+.team .teamo .two .text a{
     font-family:'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -548,87 +546,303 @@ li{
     text-decoration-line: underline;
     color: #323232;
 }
-/*.team .team .two{
+.team .teamo .three .img img{
+    height: 150px;
+    width: 150px;
+}
+.team .teamo .three{
     margin-top: 40px;
     margin-bottom: 69px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 550px;
     padding-bottom: 69px;
     border-bottom: 1px solid #D0D0D0;
 }
-.team .team .two .img img{
-    width: 150px;
-    height: 150px;
-}
-.team .team .two .text h2{
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 2px;
-    font-size: 20px;
-    line-height: 26px;
-    color: #323232;
 
-}
-.team .team .two .text h3{
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 22px;
-    color: #323232;    
-    margin-top: 10px;
-    margin-bottom: 54px;
-}
-.team .team .two .text a{
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 2px;
-    font-size: 18px;
-    line-height: 22px;
-    text-decoration-line: underline;
-    color: #323232;    
-}
-.team .team .two .text{
+.team .teamo .three .text{
     margin-left:50px ;
-}*/
-/*.team .team .two{
-    display: flex;
-    justify-content: space-around;
-    width: 550px;
-    margin-left: 50px;
-    border-bottom: 1px solid #D0D0D0;
-    margin-top:40px ;
 }
-.team .team .two .img img{
-    width: 150px;
-    height: 150px;
-}
-.team .team .two .text h2{
+.team .teamo .three .text h2{
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 2px;
     font-size: 20px;
-    line-height: 26px;
     color: #323232;
-
 }
-.team .team .two .text h3{
+.team .teamo .three .text h3{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 22px;
-    color: #323232;    
+    color: #323232;
+    margin-left: -20px;
     margin-top: 10px;
-    margin-bottom: 54px;
+    margin-bottom: 50px;
 }
-.team .team .two .text a{
-    font-family: 'Montserrat';
+.team .teamo .three .text a{
+    font-family:'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
     text-decoration-line: underline;
-    color: #323232;    
-}*/
+    color: #323232;
+}
+.team .teamo .four .img img{
+    height: 150px;
+    width: 150px;
+}
+.team .teamo .four{
+    margin-top: 40px;
+    margin-bottom: 69px;
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    padding-bottom: 69px;
+    border-bottom: 1px solid #D0D0D0;
+}
+.team .teamo .four .text{
+    margin-left:50px ;
+}
+.team .teamo .four .text h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 2px;
+    font-size: 20px;
+    color: #323232;
+}
+.team .teamo .four .text h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #323232;
+    margin-left: -20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.team .teamo .four .text a{
+    font-family:'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #323232;
+}
+.team .teamo .five .img img{
+    height: 150px;
+    width: 150px;
+}
+.team .teamo .five{
+    margin-top: 40px;
+    margin-bottom: 69px;
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    padding-bottom: 69px;
+    border-bottom: 1px solid #D0D0D0;
+}
+.team .teamo .five .text{
+    margin-left:50px ;
+}
+.team .teamo .five .text h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 2px;
+    font-size: 20px;
+    color: #323232;
+}
+.team .teamo .five .text h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #323232;
+    margin-left: -20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.team .teamo .five .text a{
+    font-family:'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #323232;
+}
+.team .teamo .five .text{
+    margin-left:50px ;
+}
+.team .teamo .five .text h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 2px;
+    font-size: 20px;
+    color: #323232;
+}
+.team .teamo .five .text h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #323232;
+    margin-left: -20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.team .teamo .five .text a{
+    font-family:'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #323232;
+}
+.team .teamo .six .img img{
+    height: 150px;
+    width: 150px;
+}
+.team .teamo .six{
+    margin-top: 40px;
+    margin-bottom: 69px;
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    padding-bottom: 69px;
+    border-bottom: 1px solid #D0D0D0;
+}
+
+.team .teamo .six .text{
+    margin-left:50px ;
+}
+.team .teamo .six .text h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 2px;
+    font-size: 20px;
+    color: #323232;
+}
+.team .teamo .six .text h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #323232;
+    margin-left: -20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.team .teamo .six .text a{
+    font-family:'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #323232;
+}
+.team .teamo .six .text{
+    margin-left:50px ;
+}
+.team .teamo .six .text h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 2px;
+    font-size: 20px;
+    color: #323232;
+}
+.team .teamo .six .text h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #323232;
+    margin-left: -20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.team .teamo .six .text a{
+    font-family:'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #323232;
+}
+/*INFO INFO INFO INFO INFO INFO INFO */
+.fontwo{
+    height: 260px;
+    padding-top: 60px;
+    background: #F8F8F8;
+}
+.fontwo .info{
+    margin-left: 115px;
+    margin-right: 115px;
+}
+.fontwo .info .one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid #1D1D1D33;
+    padding-bottom: 40px;
+}
+.fontwo .info .otherone ul li a{
+    text-decoration: none;
+    color:#3E3E3E;
+    line-height: 20px;
+    font-size: 15px;
+}
+.fontwo .info .othertwo ul li a{
+    text-decoration: none;
+    color:#3E3E3E;
+    line-height: 20px;
+    font-size: 15px;
+}
+.fontwo .info .worktime ul li h4{
+    color:#3E3E3E;
+    line-height: 15.63px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 12px;
+}
+.fontwo .info .worktime ul li h3{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    color: #3E3E3E;
+    font-size: 15px;
+}
+.fontwo .info .number{
+    width: 200px;
+    height: 86px;
+}
+.fontwo .info .number .three{
+    margin-top: 20px;
+}
+/*INFO INFO INFO INFO INFO INFO */
+.fontwo .info .two {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.fontwo .info .two .icon{
+    width: 100px;
+}
+.fontwo .info .two .icon i{
+    margin-right: 10px;
+    color: black;
+    height: 20px;
+    width: 20px;
+}
