@@ -59,9 +59,9 @@ body{
     margin-top: 100px;
     width: 150px;
     height: 50px;
-    background-color: azure;
+    background-color: rgb(61, 97, 70);
     font-size: 25px;
-    color: aqua;
+    color: rgb(130, 170, 125);
 }
 .left{
     width: 500px;
