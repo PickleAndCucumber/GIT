@@ -48,6 +48,10 @@ console.log('количество дней' + day + 'пробег' +S)
 //S=10+((10*20)/100)
 */
 
+
+
+
+/*
 let clickCircle=document.querySelector('.circle')
 let start=document.querySelector('.start')
 let close=document.querySelector('.close')
@@ -96,3 +100,74 @@ function removeModal(){
 close.addEventListener('click',() =>{
     removeModal()
 })
+*/
+
+/*let arr=[2,5,3,9]
+let res=arr[0]*arr[1]+arr[2]*arr[3]
+alert(res)*/
+
+/*let a=['a','b','c']
+let b=[1,2,3]
+let c=b.concat(a)
+console.log(c)
+
+let arr=['js','css','jq']
+arr.shift()
+arr.shift()
+console.log(arr)
+
+let arr=[1,2,3,4,5]
+let sub=arr.slice(0,3)
+alert(sub)*/
+
+/*slice удаляет или добовляет елементы в масиве*/
+/*
+let arr=[1,2,3,4,5]
+let sub=arr.splice(3,0, 'a','b','c')
+alert(arr)
+
+let arr=[1,2,3,4,5]
+let sub=arr.splice(1,0,'a','b')
+sub=arr.splice(6,0,'c')
+alert(arr)
+
+let arr=[3,4,1,2,7]
+let sub=arr.sort()
+alert(sub)
+ 
+let str='abcde'
+let arr=str.split('')
+console.log(arr.reverse())
+let res=arr.join('')
+console.log(res)
+
+let obj={
+    Nik:'1000',
+    Peter:'2000',
+    Igor:'5000'
+}
+console.log(obj['Nik'])
+
+let arr=[ [1,2,3],
+          [4,5,6],
+          [7,8,9]
+]
+console.log(arr[1][0])
+
+let arr={
+    js:['jQuery','Angular'],
+    php:'hello',
+    css:'world'
+}
+console.log(arr['js'][0])
+
+let obj={
+    ru:['пн','вт','ср','чт','пт','сб','вс'],
+    en:['mo','tu','we','th','fr','sa','su']
+}
+console.log(odj['ru'][0], obj['en'][2])
+*/
+let arr=[1,2,3,4,'5']
+for(let a=0; a <= arr.length; ++a){
+    console.log(a)
+}
