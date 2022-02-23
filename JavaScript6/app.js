@@ -51,12 +51,18 @@ console.log('количество дней' + day + 'пробег' +S)
 
 
 
-/*
+
 let clickCircle=document.querySelector('.circle')
 let start=document.querySelector('.start')
 let close=document.querySelector('.close')
-
+let result=document.querySelector('.top')
+let countArray=[]
 let count=0
+
+if (localStorage.getItem('result') != null){
+    countArray=JSON.parse(localStorage.getItem('result'))
+    renderResults()
+}
 
 clickCircle.addEventListener('click',() => {
     count++
@@ -90,17 +96,56 @@ function showModal(){
     `
     document.body.append(modal)
 }
-
+function updateLocal(){
+    localStorage.setItem('result',JSON.stringify(countArray))
+}
 function removeModal(){
     if(document.querySelector('.modal-wrapper')){
         document.querySelector('.modal-wrapper').remove()
     }
+    countArray.push(createItem(count,setDate()))
+    renderResults()
+    startButton()
+}
+function startButton(){
+    start.removeAttribute('disabled')
+}
+window.addEventListener('click',(event)=>{
+    if(event.target.classList.contains('close')){
+
+    }
+})
+function createItem(counts,time){
+    let creator={
+        counts: counts,
+        time: time 
+    }
+    return creator
+}
+function setDate(){
+    let today= new Date()
+    let time=today.getHours() +':'+today.getMinutes()+':'+today.getSeconds()
+    return time
+}
+function renderResults(){
+    result.innerHTML=''
+    countArray.forEach(element =>{
+        let newItem=document.createElement('li')
+        newItem.innerHTML=`
+        <span> ${element.counts} Clicks </span> <span> ${element.time} </span>
+        `
+        result.append(newItem)
+        updateLocal()
+        console.log(countArray)
+    })
+  
 }
 
-close.addEventListener('click',() =>{
+/*close.addEventListener('click',() =>{
     removeModal()
 })
 */
+
 
 /*let arr=[2,5,3,9]
 let res=arr[0]*arr[1]+arr[2]*arr[3]
@@ -166,8 +211,9 @@ let obj={
     en:['mo','tu','we','th','fr','sa','su']
 }
 console.log(odj['ru'][0], obj['en'][2])
-*/
+
 let arr=[1,2,3,4,'5']
 for(let a=0; a <= arr.length; ++a){
     console.log(a)
 }
+*/

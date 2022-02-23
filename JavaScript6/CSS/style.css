@@ -73,3 +73,10 @@ body{
     height: 700px;
     border: 1px solid black;
 }
+li{
+    width: 450px;
+    height: 25px;
+    background-color: antiquewhite;
+    border:1px;
+   /* list-style-type: none;*/
+}
